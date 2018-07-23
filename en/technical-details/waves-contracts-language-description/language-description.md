@@ -86,8 +86,11 @@ There is a mechanism for checking a value against a pattern and you can handle t
 match tx {
 	case t:Transfer => t.recepient
 	case t:MassTransfer => t.transfers
+    case _ => false
 }
 ```
+
+Pattern matching has to be exhaustive to be successfully compiled, `case _ => ...` clause can be used as a match any mechanism.
 
 
 # Examples
