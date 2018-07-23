@@ -24,6 +24,7 @@ Operations and constructs available are:
 * `Boolean`
 * `ByteVector`
 * `List[T]`
+* `Option[T]` - An Option[T] can be either Some[T] or None
 * Predefined non-recursive data structure like `Transaction`, `Block`, etc
 * `Unit` - a type which has ony one instance, `unit`.
 * `Nothing`- "bottom type", no instance of this type can exist, but it conforms to any other type.
