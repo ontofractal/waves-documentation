@@ -102,6 +102,7 @@ WavesContracts standard library not only contains predefined data types and inst
    - `accountAssetBalance`: `(addressOrAliasType, ByteVector) => Long` - provide balance info for any address/asset combination
    - `transactionHeightById`: `ByteVector => UNION(LONG, UNIT)` - provides height of tx in blockchain by id
    - `extract`: `Option[T] => Union(T, None)` - extracts value from any Option, returns value or `None`
+   - `isDefined`: `Option[T] => Boolean` - checks if Option contains a value, returns true or false
    
 * User's Waves context functions
    - `addressFromPublicKey` : `ByteVector => addressType`
