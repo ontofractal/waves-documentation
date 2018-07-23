@@ -121,3 +121,4 @@ WavesContracts standard library not only contains predefined data types and inst
 	- `keccak256`,`blake2b256`, `sha256` : `ByteVector => ByteVector`
 	- `fromBase58String'`, `fromBase64String'`: `String => ByteVector` 		
 	- `toBase58String'`, `toBase64String'`: `ByteVector => String` 	
+    - `base58`: ByteVector constructor that accepts a String literal and uses single quotes `base58'...'`
