@@ -99,7 +99,7 @@ WavesContracts standard library not only contains predefined data types and inst
 * Native Waves context functions:
    - `addressFromRecipient` : `Option(ByteVector) => addressType`
    - `transactionById` : `ByteVector => Option[Transaction]` - provides tx in blockchain by id
-   - `assetBalance`: `addressOrAliasType => Long` - provide balance info for any account
+   - `accountAssetBalance`: `(addressOrAliasType, ByteVector) => Long` - provide balance info for any address/asset combination
    - `transactionHeightById`: `ByteVector => UNION(LONG, UNIT)` - provides height of tx in blockchain by id
    
 * User's Waves context functions
