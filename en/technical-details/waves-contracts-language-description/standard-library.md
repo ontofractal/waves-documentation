@@ -105,7 +105,7 @@ WavesContracts standard library not only contains predefined data types and inst
 * User's Waves context functions
    - `addressFromPublicKey` : `ByteVector => addressType`
    - `addressFromString` : `String => UNION(addressType.typeRef, UNIT)`
-   - `wavesBalance`: `addressOrAliasType => Long` - provide balance info for any account
+   - `accountBalance`: `addressOrAliasType => Long` - provide WAVES balance info for any address
  
 * `DataTransaction`can set/overwrite a typed primitive value for a key on account of sender. These fields can be accessed from         WavesContracts via:
     
