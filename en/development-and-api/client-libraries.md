@@ -7,6 +7,7 @@ Waves Full Node provides access to the [REST API](/en/development-and-api/node-a
 * [WavesCS for C\#](/development-and-api/client-libraries/wavescs.md)
 * [Waves-API for TypeScript/JavaScript](https://github.com/wavesplatform/waves-api)
 * [WavesC](/development-and-api/client-libraries/waves-c.md)
+* [Waveschainex for Elixir/Erlang](https://github.com/cyberpunk-ventures/waveschainex)
 
 All libraries are open for contribution and testing.
 
