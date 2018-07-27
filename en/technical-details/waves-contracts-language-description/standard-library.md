@@ -99,7 +99,7 @@ WavesContracts standard library not only contains predefined data types and inst
 * Native Waves context functions:
    - `addressFromRecipient` : `Option(ByteVector) => addressType`
    - `transactionById` : `ByteVector => Option[Transaction]` - provides tx in blockchain by id
-   - `accountAssetBalance`: `(addressOrAliasType, ByteVector) => Long` - provide balance info for any address/asset combination
+   - `assetBalance`: `(addressOrAliasType, ByteVector) => Long` - provide balance info for any address/asset combination
    - `transactionHeightById`: `ByteVector => UNION(LONG, UNIT)` - provides height of tx in blockchain by id
    - `extract`: `Option[T] => Union(T, None)` - extracts value from any Option, returns value or `None`
    - `isDefined`: `Option[T] => Boolean` - checks if Option contains a value, returns true or false
@@ -107,7 +107,7 @@ WavesContracts standard library not only contains predefined data types and inst
 * User's Waves context functions
    - `addressFromPublicKey` : `ByteVector => addressType`
    - `addressFromString` : `String => UNION(addressType.typeRef, UNIT)`
-   - `accountBalance`: `addressOrAliasType => Long` - provide WAVES balance info for any address
+   - `wavesBalance`: `addressOrAliasType => Long` - provide WAVES balance info for any address
  
 * `DataTransaction`can set/overwrite a typed primitive value for a key on account of sender. These fields can be accessed from         WavesContracts via:
     
