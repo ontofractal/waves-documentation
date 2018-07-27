@@ -13,7 +13,7 @@ Operations and constructs available are:
 * Unary operations `-`, `!`
 * Constants declaration via `let`
 * `if-then-else` clause
-* Accessing fields of any of instances of predifined sctructures via `.`
+* Accessing fields of any of instances of predefined structures via `.`
 * Accessing list element by index `[]`
 * Calls to predefined functions via `()`
 
@@ -95,7 +95,7 @@ Pattern matching has to be exhaustive to be successfully compiled, `case _ => ..
 
 # Examples
 
-Here's a complete multisig 2 of 3 example. Keep in mind all`let`s could actually be inlined, they exist only for the sake of readability.
+Here's a complete multisig 2 of 3 example. Keep in mind all`let`'s could actually be inlined, they exist only for the sake of readability.
 
 ```
 let alicePubKey  = base58'B1Yz7fH1bJ2gVDjyJnuyKNTdMFARkKEpV'
